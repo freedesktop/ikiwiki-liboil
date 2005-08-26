@@ -50,6 +50,9 @@ cvs -d :pserver:anoncvs@anoncvs.freedesktop.org:/cvs/liboil co liboil
 
 please report bugs at https://cvs.comedi.org/cgi-bin/bugzilla/enter_bug.cgi until bugzilla is moved to freedesktop.org
 
+== Mailing List ==
+
+http://lists.freedesktop.org/mailman/listinfo/liboil
 
 == Contact ==
 
