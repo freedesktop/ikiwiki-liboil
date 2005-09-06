@@ -48,11 +48,11 @@ cvs -d :pserver:anoncvs@anoncvs.freedesktop.org:/cvs/liboil co liboil
 
 == Bugs ==
 
-please report bugs at https://cvs.comedi.org/cgi-bin/bugzilla/enter_bug.cgi until bugzilla is moved to freedesktop.org
+Bugs can be reported at [http://bugs.freedesktop.org/enter_bug.cgi]
 
 == Mailing List ==
 
-http://lists.freedesktop.org/mailman/listinfo/liboil
+[http://lists.freedesktop.org/mailman/listinfo/liboil]
 
 == Contact ==
 
