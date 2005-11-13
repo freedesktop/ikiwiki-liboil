@@ -34,9 +34,9 @@ If you are an application developer, Liboil will not solve your optimization pro
 In general, hacking on Liboil does not require knowledge of assembly language. Many implementations are written in C. Some use compiler intrisics that generate assembly for MMX or SSE instructions.
 
 == Documentation ==
-[http://www.schleef.org/liboil/documentation Online]
+[http://liboil.freedesktop.org/documentation/ Online]
 
-[http://www.schleef.org/liboil/desktopcon-2005.pdf Slides] from a presentation given by ds at [http://www.desktopcon.org/2005/ DesktopCon] about Liboil.
+[http://liboil.freedesktop.org/desktopcon-2005.pdf Slides] from a presentation given by ds at [http://www.desktopcon.org/2005/ DesktopCon] about Liboil.
 
 == Download ==
 [http://liboil.freedesktop.org/download]
