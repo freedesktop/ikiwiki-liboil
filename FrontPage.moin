@@ -41,10 +41,11 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 == Download ==
 [http://liboil.freedesktop.org/download]
 
-== CVS ==
-cvs -d :pserver:anoncvs@anoncvs.freedesktop.org:/cvs/liboil co liboil
+== GIT ==
 
-[http://cvs.freedesktop.org/liboil/ ViewCVS]
+git clone git://anongit.freedesktop.org/git/liboil
+
+[http://gitweb.freedesktop.org/?p=liboil.git;a=summary Gitweb]
 
 == Bugs ==
 
