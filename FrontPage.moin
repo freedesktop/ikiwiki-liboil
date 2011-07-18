@@ -1,15 +1,15 @@
 = LIBOIL =
 
-Liboil is a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers.[http://www.essaymojo.co.uk/essay-service.php/ Essay Writing] Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).[http://www.essaymojo.co.uk/dissertation-proposal.php/ Dissertation Proposal]
+Liboil is a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers.[http://www.essaymojo.co.uk/essay-service.php/| Essay Writing] Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).[http://www.essaymojo.co.uk/dissertation-proposal.php/| Dissertation Proposal]
 
-Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, [[http://www.mycaal.com/|loan modification]], and also make optimizations easier to use by a broader range of applications.[http://www.essaymojo.co.uk/dissertation-writing.php/ Dissertation Writing]
+Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, [[http://www.mycaal.com/|loan modification]], and also make optimizations easier to use by a broader range of applications.[http://www.essaymojo.co.uk/dissertation-writing.php/| Dissertation Writing]
 
-As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed.[http://www.essayinn.co.uk/ Essay Help]
+As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed.[http://www.essayinn.co.uk/| Essay Help]
 
 
 Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed.
 
-Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.[http://www.essayinn.co.uk/buy-an-essay/ Buy Essay]
+Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.[http://www.essayinn.co.uk/buy-an-essay/| Buy Essay]
 
 == Overview ==
 Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
@@ -17,7 +17,7 @@ Liboil has a number of function classes, which are primarily seen by a developer
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
 
-This function performs a table lookup for each element in the src array, and puts the results in the dest array.[http://www.mightydesigners.com/ Logo Design Contest] In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function.
+This function performs a table lookup for each element in the src array, and puts the results in the dest array.[http://www.mightydesigners.com/| Logo Design Contest] In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function.
 
 Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test the accuracy of other implementations.
 
