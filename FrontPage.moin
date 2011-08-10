@@ -4,6 +4,7 @@ Liboil is a library of simple functions that are optimized for various CPUs. The
 [[http://www.writers-write.co.uk|Essay writing]]
 
 Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and  [[http://www.proposable.com|proposal software]] also make optimizations easier to use by a broader range of applications.
+[[http://www.writers-write.co.uk/custom-assignment-help.php | assignment help]]
 
 As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed.
 
@@ -18,7 +19,7 @@ Liboil has a number of function classes, which are primarily seen by a developer
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
 
-This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented [[http://www.truckaccidentlawyersource.com/|truck accident lawyer]] as a preprocessor macro that generates the correct code to call an indirect function.
+This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented [[http://www.truckaccidentlawyersource.com/|truck accident lawyer]] as a preprocessor macro that generates the correct code to call an indirect function.[[http://www.dissertationinn.co.uk/dissertation-service/|dissertation writing service]]
 
 Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://thebeginnerslens.com/iphone-camera-tips-and-iphone-photography|how to use iphone camera app]] the accuracy of other implementations.
 
