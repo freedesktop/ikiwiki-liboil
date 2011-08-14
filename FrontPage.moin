@@ -8,7 +8,7 @@ Many multimedia applications and libraries already do similar things internally.
 
 As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed.
 
-Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed.
+Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed. 
 
 Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
 [[http://www.writers-write.co.uk/custom-assignment-help.php|assignment help]]
@@ -41,7 +41,9 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 
 [[http://forexrobot.eu.com/|Forex]]
 [[http://www.essayinn.co.uk/buy-an-essay/|Buy Essay]]
+[[http://www.coppervalleycustomhomes.com|custom home builders]]
 [[http://www.flowers2world.com/send_flowers_online/Sending_Flowers_to_Japan.asp|Sending Flowers Japan]]
+[[http://www.digitalproductsavenue.com|ebooks with resale rights]]
 [[http://www.flowers2world.com/send_flowers_online/flowers_delivery_Poland.asp|flower delivery in poland]]
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
