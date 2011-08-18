@@ -1,11 +1,10 @@
 = LIBOIL =
 
 Liboil is a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).
-[[http://www.allwritingsource.co.uk/university-essays.php|University Essays]]|[[http://coolhandbags.blogspot.com| women handbags 2011]]|[[http://fashionparadize.com| womens fashion dresses 2011]]|[[http://fashionparadize.com/2011/05/women-shoes-2011/| women shoes 2011]]|[[http://long-reach-stapler.blogspot.com| long reach stapler]]
 
 
-Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and  [[http://www.proposable.com|proposal software]] also make optimizations easier to use by a broader range of applications.
-[[http://www.writers-write.co.uk/custom-assignment-help.php | assignment help]]
+Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and  also make optimizations easier to use by a broader range of applications.
+
 
 As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed.
 
@@ -69,7 +68,7 @@ git clone git://anongit.freedesktop.org/git/liboil
 [[http://www.easyessayhelp.com|essay writing help]]
 [[http://www.solutionssolver.blogspot.com/|Solutions Solver]]
 [[http://www.aboutconsolidationloan.blogspot.com/2011/08/private-student-loan-consolidation.html|Private Student Loan Consolidation]]
-[[http://forexrobot.eu.com/|Forex]]
+
 
 == Bugs ==
 
@@ -83,10 +82,6 @@ Bugs can be reported at [[http://bugs.freedesktop.org/enter_bug.cgi]]
 
 == Med section==
 
-[[http://www.shopeastwest.com/med/health-wellness/Nexium/105.html|Buy Nexium Online]]
-
-
-[[http://www.shopeastwest.com/med/health-wellness/Crestor/122.html|Buy Crestor Online]]
 == Contact ==
 
 David Schleef <ds@schleef.org> 
