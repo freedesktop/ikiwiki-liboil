@@ -11,7 +11,7 @@ As of the liboil-0.3.0 release, I'm actively encouraging other open-source proje
 Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed. 
 
 Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
-[[http://www.writers-write.co.uk/custom-assignment-help.php|assignment help]]
+
 
 == Overview ==
 Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
@@ -19,11 +19,11 @@ Liboil has a number of function classes, which are primarily seen by a developer
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
 
-This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented [[http://www.truckaccidentlawyersource.com/|truck accident lawyer]] as a preprocessor macro that generates the correct code to call an indirect function.[[http://www.dissertationinn.co.uk/dissertation-service/|dissertation writing service]]
+This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function.[[http://www.dissertationinn.co.uk/dissertation-service/|dissertation writing service]]
 
 Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://thebeginnerslens.com/iphone-camera-tips-and-iphone-photography|how to use iphone camera app]] the accuracy of other implementations.
 
-Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation.
+Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest [[http://bit.ly/f619Uw|forex signals]] implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation.
 
 Implementations can be disabled either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation.
 
