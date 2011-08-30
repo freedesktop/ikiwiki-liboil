@@ -6,7 +6,7 @@ Liboil is a library of simple functions that are optimized for various CPUs. The
 Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and  also make optimizations easier to use by a broader range of applications.
 
 
-As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed to [http://www.burnfatandgainmuscle.com/|burn fat]
+As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed to [[http://www.burnfatandgainmuscle.com/|burn fat]]
 
 Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed. 
 
