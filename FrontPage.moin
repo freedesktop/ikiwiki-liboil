@@ -21,18 +21,18 @@ Liboil has a number of function classes, which are primarily seen by a developer
 
 This function performs a table lookup for each element in the src array, and puts the results in the dest array. In  oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function.
 
-Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://www.directlocks.co.uk|Door Locks]] Essay Help]]|[[http://www.dietsthatwork.co/why-eat-protein-does-eating-protein-to-lose-weight-work/| eating protein to lose weight]]
+Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://www.directlocks.co.uk|Door Locks]] Essay Help]]|[[http://www.dietsthatwork.co/why-eat-protein-does-eating-protein-to-lose-weight-work/| eating protein to lose weight]] [[http://www.mayweathervsortizlive.net/mayweather-vs-ortiz-live-streaming-watch-online.html|mayweather vs ortiz]]
 
 
 
 Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest [[http://bit.ly/f619Uw|forex signals]] implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation.
 
-Implementations can be disabled either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation. [[http://www.offerte-fotocamere.com/fotocamera-digitale-kodak-easyshare-m575-14-megapixel|Kodak EasyShare M575]]
+Implementations can be disabled either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation. [[http://www.offerte-fotocamere.com/fotocamera-digitale-kodak-easyshare-m575-14-megapixel|Kodak EasyShare M575]] [[http://www.pacquiaovsmarqueziii.info|pacquiao vs marquez]]
 
 All of the [[http://www.url.vn/2.html|Thiet ke web]] function classes will be API and ABI stable through the lifetime of the 0.3 series. In addition, the 0.4 series will include a compatibility [[http://janisdigitalmedia.com | video production]] library that will provide the 0.3 ABI. This allows multiple liboil-using libraries to be linked into the same application without regard to using the same liboil ABI. New ABI versions (0.4, 0.5, etc.) are expected in no less than 6 months apart. It is planned that all future versions of liboil will support at least two liboil ABI versions in this way.
 
 == The Project ==
-Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create function classes to support those applications, and occasionally write some optimized implementations [[http://www.vietnamairlinestickets.com/2.html|Vietnam Airlines]].
+Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create function classes to support those applications, and occasionally write some optimized implementations [[http://www.vietnamairlinestickets.com/2.html|Vietnam Airlines]] [[http://www.donairevsnarvaez.info|donaire vs narvaez]].
 
 If you are an application developer, Liboil will not solve your optimization problems without you participating.
 
@@ -42,6 +42,7 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 
 [[http://www.digitalproductsavenue.com|ebooks with resale rights]]
 [[http://www.flowers2world.com/send_flowers_online/flowers_delivery_Poland.asp|flower delivery in poland]]
+[[http://www.cottovsmargarito.info|cotto vs margarito]]
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
 == Download ==
@@ -51,6 +52,8 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 [[http://www.flower-canada.ca/flowers/lilies-flowers.html|Lilies Flowers Delivery]]
 [[http://www.flower-canada.ca/flowers/roses-flower.html|Rose Flowers Delivery]]
 [[http://www.goldbetreview.com|Goldbet]]
+[[http://www.ticketingoutlet.com/sports/ufc-137-st-pierre-vs-diaz.html|st-pierre vs diaz]]
+[[http://www.ticketingoutlet.com/sports/ufc-137-st-pierre-vs-diaz.html|st-pierre vs diaz tickets]]
 
 == GIT ==
 
@@ -63,6 +66,8 @@ git clone git://anongit.freedesktop.org/git/liboil
 [[http://www.solutionssolver.blogspot.com/|Solutions Solver]]
 [[http://www.aboutconsolidationloan.blogspot.com/2011/08/private-student-loan-consolidation.html|Private Student Loan Consolidation]]
 [[http://www.bookkeepingprograms.net/Bookkeeping-Services/|Bookkeeping services]]
+[[http://www.donairevsnarvaez.info/donaire-vs-narvaez-tickets.html|donaire vs narvaez tickets]]
+[[http://www.cottovsmargarito.info/cotto-vs-margarito-tickets.html|cotto vs margarito tickets]]
 
 
 == Bugs ==
@@ -74,10 +79,12 @@ Bugs can be reported at [[http://bugs.freedesktop.org/enter_bug.cgi]]
 
 [[http://www.essaymojo.co.uk/essay-service.php/| Essay Writing]]
 [[http://emailextractor14.com/?page_id=182 | buy email list]]
+[[http://www.etravelpilipinas.com|Philippine Travel]]
 
 == Med section==
 [[http://www.luvsunglasses.com/cartier-sunglasses-c-1.html | cartier sunglasses]]
 [[http://www.luvsunglasses.com/dg-glasses-c-16.html | D&G glasses]]
+[[http://www.travelasianplaces.com|Travel Asia]]
 == Contact ==
 
 David Schleef <ds@schleef.org> 
