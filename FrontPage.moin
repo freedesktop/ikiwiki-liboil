@@ -21,7 +21,7 @@ Liboil has a number of function classes, which are primarily seen by a developer
 
 This function performs a table lookup for each element in the src array, and puts the results in the dest array. In  oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function.
 
-Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://www.directlocks.co.uk|Door Locks]] Essay Help]]|[[http://www.dietsthatwork.co/why-eat-protein-does-eating-protein-to-lose-weight-work/| eating protein to lose weight]] [[http://www.mayweathervsortizlive.net/mayweather-vs-ortiz-live-streaming-watch-online.html|mayweather vs ortiz]]
+Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test [[http://www.directlocks.co.uk|Door Locks]] Essay Help]]|[[http://www.dietsthatwork.co/why-eat-protein-does-eating-protein-to-lose-weight-work/| eating protein to lose weight]] [[http://www.mayweathervsortizlive.net/mayweather-vs-ortiz-live-streaming-watch-online.html|mayweather vs ortiz]][[http://www.bogolf.com|Golf Simulator]]
 
 
 
@@ -106,4 +106,3 @@ David Schleef <ds@schleef.org>
 [[http://www.buybupropion.info/ | bupropion 150mg]]
 [[http://www.seoblush.com | Affordable SEO Services]]
 [[http://www.lyricaonline.com/soma | buy soma online]]
-
