@@ -38,6 +38,7 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 
 == Documentation ==
 [[http://liboil.freedesktop.org/documentation/|Online]]
+[[http://companyfinder.ie/company_signs_banners_dublin.html| Signs]]
 
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
@@ -57,6 +58,7 @@ Bugs can be reported at [[http://bugs.freedesktop.org/enter_bug.cgi]]
 == Mailing List ==
 
 [[http://lists.freedesktop.org/mailman/listinfo/liboil]]
+
 
 == Contact ==
 
