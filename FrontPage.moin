@@ -35,6 +35,12 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 
 == Documentation ==
 [[http://liboil.freedesktop.org/documentation/|Online]]
+[[http://www.toolorbit.com/Bosch/Bosch.html|Bosch Tools]]
+[[http://www.toolorbit.com/DeWalt/DeWalt.html|DeWalt Tools]]
+[[http://www.toolorbit.com/Hitachi/Hitachi.html|Hitachi Tools]]
+[[http://www.toolorbit.com/Makita/Makita.html|Makita Tools]]
+[[http://www.toolorbit.com/Categories/Power-Tools.html|Power Tools]]
+[[http://www.toolorbit.com/Categories/Air-Tools.html|Air Tools]]
 
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
