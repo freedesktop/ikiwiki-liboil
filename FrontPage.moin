@@ -11,7 +11,7 @@ As of the liboil-0.3.0 release, I'm actively encouraging other open-source proje
 [[http://www.easyessayhelp.com/definition-essay.php| Definition Essay]] Liboil may be modified and distributed in [[http://www.bankerslifeinsurance.com/|bankers life]] accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
 
 == Overview ==
-[http://www.easyessayhelp.com/expository-essay.php Expository Essay] Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
+[[http://www.easyessayhelp.com/expository-essay.php| Expository Essay]] Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
 
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
