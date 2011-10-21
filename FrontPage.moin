@@ -8,10 +8,10 @@ As of the liboil-0.3.0 release, I'm actively encouraging other open-source proje
 
 [[http://www.easyessayhelp.com| help with essay writing]] Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed [[http://www.easyessayhelp.com/write-my-essay.php| help me write my essay]].
 
-Liboil may be modified and distributed in [[http://www.bankerslifeinsurance.com/|bankers life]] accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
+[http://www.easyessayhelp.com/definition-essay.php Definition Essay] Liboil may be modified and distributed in [[http://www.bankerslifeinsurance.com/|bankers life]] accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
 
 == Overview ==
-Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
+[http://www.easyessayhelp.com/expository-essay.php Expository Essay] Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
 
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
