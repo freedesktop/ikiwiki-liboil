@@ -1,5 +1,6 @@
 = LIBOIL =
 
+[[http://hpcoolers.com/|Icey Tek Coolers]]
 Liboil is a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).
 
 [[http://www.mightydesigners.com| Logo Contests]] Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and also make optimizations easier to use by a broader range of applications.
@@ -8,7 +9,7 @@ As of the liboil-0.3.0 release, I'm actively encouraging other open-source proje
 
 [[http://www.easyessayhelp.com| help with essay writing]] Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed [[http://www.easyessayhelp.com/write-my-essay.php| help me write my essay]].
 
-[[http://www.easyessayhelp.com/definition-essay.php| Definition Essay]] Liboil may be modified and distributed in [[http://www.bankerslifeinsurance.com/|bankers life]] accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.
+[[http://www.easyessayhelp.com/definition-essay.php| Definition Essay]] Liboil may be modified and distributed in [[http://www.bankerslifeinsurance.com/|bankers life]] accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications. [[http://www.casinomagic.co.uk/|Play Casino Online]]
 
 == Overview ==
 [[http://www.easyessayhelp.com/expository-essay.php| Expository Essay]] Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
@@ -19,6 +20,7 @@ As of the liboil-0.3.0 release, I'm actively encouraging other open-source proje
 [[http://www.easyessayhelp.com/exploratory-essay.php| Exploratory Essay]] This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function [[http://www.easyessayhelp.com/PersuasiveEssays.php| Persuasive Essays]].
 
 Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test the accuracy of other implementations.
+[[http://www.epicengraving.com/award-plaques-engraved-employee-recognition-plaques.html|Award Plaques]]
 
 Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation.
 
@@ -28,6 +30,7 @@ All of the function classes will be API and ABI stable through the lifetime of t
 
 == The Project ==
 Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create function classes to support those applications, and occasionally write some optimized implementations.
+[[http://www.grandservice-logistics.com/|Groupage Russia]]
 
 If you are an application developer, Liboil will not solve your optimization problems without you participating.
 
