@@ -2,20 +2,20 @@
 
 Liboil is a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers [[http://www.easyessayhelp.com| essay writing]]. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).
 
-[[http://www.mightydesigners.com| Logo Contests]] Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and also make optimizations easier to use by a broader range of applications. 
+Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and also make optimizations easier to use by a broader range of applications. 
 
 As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed [[http://www.easyessayhelp.com/write-my-essay.php| write my essay]].
 Liboil does not require GCC to [[http://www.junoblinds.co.uk| blinds]] build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for anything that is installed [[http://www.easyessayhelp.com/research-paper.php| research paper help]].
 
-[[http://www.easyessayhelp.com/definition-essay.php| Definition Essay]] Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications. 
+Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications. 
 
 == Overview ==
-[[http://www.easyessayhelp.com/write-my-research-paper.php| write my research paper]] Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
+ Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is:
 
  void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src,
     int sstr, uint8_t *table, int tablestride, int n);
 
-[[http://www.easyessayhelp.com/exploratory-essay.php| Exploratory Essay]] This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function [[http://www.easyessayhelp.com/PersuasiveEssays.php| Persuasive Essays]].
+This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function [[http://www.easyessayhelp.com/PersuasiveEssays.php| Persuasive Essays]].
 
 Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test the accuracy of other implementations.
 [[http://www.epicengraving.com/award-plaques-engraved-employee-recognition-plaques.html|Award Plaques]]
@@ -35,33 +35,20 @@ If you are an application developer, Liboil will not solve your optimization pro
 In general, hacking on Liboil does not require knowledge of assembly language. Many implementations are written in C. Some use compiler intrisics that generate assembly for MMX or SSE instructions.
 
 == Documentation ==
-[[http://liboil.freedesktop.org/documentation/|Online]]
-[[http://www.toolorbit.com/Bosch/Bosch.html|Bosch Tools]]
-[[http://www.toolorbit.com/DeWalt/DeWalt.html|DeWalt Tools]]
-[[http://www.toolorbit.com/Hitachi/Hitachi.html|Hitachi Tools]]
-[[http://www.toolorbit.com/Makita/Makita.html|Makita Tools]]
-[[http://www.toolorbit.com/Categories/Power-Tools.html|Power Tools]]
-[[http://www.toolorbit.com/Categories/Air-Tools.html|Air Tools]]
-[[http://www.toolpartspro.com/hitachi-parts/hitachi-parts.html|Hitachi Parts]]
-[[http://www.toolpartspro.com/dewalt-parts/dewalt-parts.html|Dewalt Parts]]
-[[http://www.toolpartspro.com/|Makita Parts]]
+
 
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
 == Download ==
 [[http://liboil.freedesktop.org/download]]
 
-== GIT ==
-
-git clone git://anongit.freedesktop.org/git/liboil
-
-[[http://gitweb.freedesktop.org/?p=liboil.git;a=summary|Gitweb]]
-
-
-* [[http://copyxbox360games.org/|copy xbox 360 games]]
-* [[http://copy-wii-games.org/|copy wii games]]
-
-
+[[http://wordpressviet.com|thiet ke web]]
+[[http://nhasach.edu.vn|nha sach truc tuyen]]
+[[http://didaudidau.vn|Dia diem du lich]]
+[[http://howtocooks.com|How to cook]]
+[[http://automagento.com|magento template]]
+[[http://gfxtool.com|gfx]]
+[[http://correctanswers.net|Answer]]
 
 == Bugs ==
 
