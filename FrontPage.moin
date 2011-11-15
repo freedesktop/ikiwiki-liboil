@@ -26,14 +26,14 @@ Implementations can be disabled [[http://www.chetankapur.com/|Chetan Kapur]] eit
 All of the function classes will be API and ABI stable through the lifetime of the 0.3 series. In addition, the 0.4 series will include a compatibility library that will provide the 0.3 ABI. This allows multiple liboil-using libraries to be linked into the same application without regard to using the same liboil ABI. New ABI versions (0.4, 0.5, etc.) are expected no less than 6 months apart. It is planned that all future versions [[http://www.bankerslifeinsurance.com/|bankers life]] of liboil will support at least two liboil ABI versions in this way.
 
 == The Project ==b
-Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create [[http://www.junowebdesign.com/graham-and-green-2.html/| Graham and Green]] function classes to support those applications, and occasionally write some optimized implementations.
+Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create [[http://www.atsteels.com/| Graham and Green]] function classes to support those applications, and occasionally write some optimized implementations.
 
 
 ---- /!\ '''Edit conflict - other version:''' ----
-If you are an application developer, Liboil will not solve your optimization problems without you participating [[http://www.atsteels.com/|Heat resistant steel]
+If you are an application developer, Liboil will not solve your optimization problems without you participating 
 
 ---- /!\ '''Edit conflict - your version:''' ----
-If you are an application developer, Liboil will not solve your optimization problems without you participating [[http://www.atsteels.com/ |Heat resistant steel]
+If you are an application developer, Liboil will not solve your optimization problems without you participating 
 
 ---- /!\ '''End of edit conflict''' ----
 
