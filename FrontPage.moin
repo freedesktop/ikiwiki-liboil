@@ -21,12 +21,12 @@ Each function class has one or more function implementations, which are real fun
 
 Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation.
 
-Implementations can be disabled [[http://www.chetankapur.com/|Chetan Kapur]] either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation.
+Implementations can be disabled  either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation.
 
-All of the function classes will be API and ABI stable through the lifetime of the 0.3 series. In addition, the 0.4 series will include a compatibility library that will provide the 0.3 ABI. This allows multiple liboil-using libraries to be linked into the same application without regard to using the same liboil ABI. New ABI versions (0.4, 0.5, etc.) are expected no less than 6 months apart. It is planned that all future versions [[http://www.bankerslifeinsurance.com/|bankers life]] of liboil will support at least two liboil ABI versions in this way.
+All of the function classes will be API and ABI stable through the lifetime of the 0.3 series. In addition, the 0.4 series will include a compatibility library that will provide the 0.3 ABI. This allows multiple liboil-using libraries to be linked into the same application without regard to using the same liboil ABI. New ABI versions (0.4, 0.5, etc.) are expected no less than 6 months apart. It is planned that all future versions  of liboil will support at least two liboil ABI versions in this way.
 
 == The Project ==b
-Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create [[http://www.atsteels.com/| Graham and Green]] function classes to support those applications, and occasionally write some optimized implementations.
+Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create  function classes to support those applications, and occasionally write some optimized implementations.
 
 
 ---- /!\ '''Edit conflict - other version:''' ----
@@ -49,6 +49,7 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 [[http://www.selectfactoring.co.uk|factoring]]
 [[http://controlissblinds.co.uk|blinds]]
 [[http://www.littlefishsupport.com/managed-services|managed services]]
+[[http://packshot360.wordpress.com/ packshot 360]]
 
 == Bugs ==
 
