@@ -1,6 +1,6 @@
 = LIBOIL =
 
-Liboil is [http://www.casinomagic.co.uk/ Mobile Casino] a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).
+Liboil is  a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).
 
 Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and also make optimizations easier to use by a broader range of applications. 
 
@@ -45,6 +45,7 @@ In general, hacking on Liboil does not require knowledge of assembly language. M
 [[http://liboil.freedesktop.org/desktopcon-2005.pdf|Slides]] from a presentation given by ds at [[http://www.desktopcon.org/2005/|DesktopCon]] about Liboil.
 
 == Download ==
+[[http://www.casinomagic.co.uk/ Mobile Casino]]
 [[http://liboil.freedesktop.org/download]]
 [[http://www.selectfactoring.co.uk|factoring]]
 [[http://packshot360.wordpress.com/|packshot 360]]
