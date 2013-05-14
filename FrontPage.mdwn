@@ -1,0 +1,94 @@
+
+
+# LIBOIL
+
+Liboil is  a library of simple functions that are optimized for various CPUs. These functions are generally loops implementing simple algorithms, such as converting an array of N integers to floating-point numbers or multiplying and summing an array of N numbers. Such functions are candidates for significant optimization using various techniques, especially by using extended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.). 
+
+Many multimedia applications and libraries already do similar things internally. The goal of this project is to consolidate some of the code used by various multimedia projects, and also make optimizations easier to use by a broader range of applications.  
+
+As of the liboil-0.3.0 release, I'm actively encouraging other open-source projects to begin using liboil. I'm happy to do much of work converting projects to use liboil, and especially, adding function classes and implementations to liboil that may be needed. Liboil does not require GCC to build, but since it uses GCC-style inline assembly heavily, using GCC is strongly recommended. Versions of GCC prior to 3.2 are known to have problems compiling liboil correctly. GLib-2.0 is recommended to build a few of the examples, but is not required for [[cavite house and lot|http://www.cavite-housing.com/]] anything that is installed. 
+
+Liboil may be modified and distributed in accordance with a very liberal license commonly referred to as "Two-Clause BSD". This license was chosen to make liboil useful to as many open-source projects as possible, and has the side effect of also allowing liboil to be used by proprietary applications.  
+
+
+## Overview
+
+* Liboil has a number of function classes, which are primarily seen by a developer using the library as actual functions. One such function is: void oil_tablelookup_u8 (uint8_t *dest, int dstr, uint8_t *src, 
+         * int sstr, uint8_t *table, int tablestride, int n); 
+This function performs a table lookup for each element in the src array, and puts the results in the dest array. In actuality, oil_tablelookup_u8 is currently implemented as a preprocessor macro that generates the correct code to call an indirect function. 
+
+Each function class has one or more function implementations, which are real functions that perform the exact same action as defined by the documentation for the function. Each class has one implementation that is the reference implementation. This reference implmentation is used to test the accuracy of other implementations. 
+
+Presumably, the non-reference implementations can perform the action faster than the reference implementation. Thus, the liboil initialization code (at runtime) checks each implementation in a class to determine the fastest implementation. Once this is done, the class's indirect function pointer points to the optimal implementation. After this, any calls to the function class (such as oil_tablelookup_u8() described above) will automatically be routed to the fastest implementation at [[PPC Management Company|http://www.imcredo.com/]]. 
+
+Implementations can be disabled  either at compile time (e.g., assembly code for the wrong architecture) or at run time (e.g., implementation uses unsupported opcodes). This is done automatically. In addition, implementations may be disabled because they do not produce the same results as the reference implementation.[[Crystal Awards|http://www.epicengraving.com/crystal-employee-recognition-awards.html]] 
+
+All of the function classes will be API and ABI stable through the lifetime of the 0.3 series. In addition, the 0.4 series will include a compatibility library that will provide the 0.3 ABI. This allows multiple liboil-using libraries to be linked into the same application without regard to using the same liboil ABI. New ABI versions (0.4, 0.5, etc.) are expected no less than 6 months apart. It is planned that all future versions  of liboil will support at [[Essays Help|http://www.easyessayhelp.com]] least two liboil ABI versions in [[Buy Essay Online|http://www.easyessayhelp.com/buy-essay.php]] this way. 
+
+== The Project ==b Liboil has essentially two separate subprojects: development of the Liboil core (essentially completed), and development of function classes useful to applications. As time and interest permit, I modify applications and libraries to use liboil, create  function [[Buy A Research Paper|http://www.easyessayhelp.com/research-paper.php]] classes to support those applications, and occasionally write some optimized implementations. 
+
+
+
+---
+
+ /!\ **Edit conflict - other version:** 
+
+---
+
+ If you are an application developer, Liboil will not solve your optimization problems without you participating  
+
+
+
+---
+
+ /!\ **Edit conflict - your version:** 
+
+---
+
+ If you are an application developer, Liboil will not solve your optimization problems without you participating  
+
+
+
+---
+
+ /!\ **End of edit conflict** 
+
+---
+
+ 
+
+In general, hacking on Liboil does not require knowledge of assembly language. Many implementations are written in C. Some use compiler intrisics that generate assembly for MMX or SSE instructions. 
+
+
+## Documentation
+
+[[Slides|http://liboil.freedesktop.org/desktopcon-2005.pdf]] from a presentation given by ds at [[DesktopCon|http://www.desktopcon.org/2005/]] about Liboil. 
+
+
+## Download
+
+[[Online Scratchcards|http://www.casinoluckywin.com/]] [[Bounce House Rental Mesa AZ|http://www.bouncewow.com/]] [[Mobile Casino|http://www.casinomagic.co.uk/]] [[http://liboil.freedesktop.org/download|http://liboil.freedesktop.org/download]] [[factoring|http://www.selectfactoring.co.uk]] [[packshot 360|http://packshot360.wordpress.com/]] [[Professional Essay Writers|http://www.easyessayhelp.com/essay-writers.php]] [[Write My Essay For Me|http://www.easyessayhelp.com/write-my-essay.php]] [[Michigan Disability Lawyer|http://www.ssdcs.com]] [[Above ground pools|http://www.swimtownpools.com/all-above-ground-pools-s/1.htm]] [[Red Kap Work Clothing|http://www.minnesotaworkwear.com/Red-Kap-Work-Clothing-c3/]] [[data recovery|http://www.datarecoverygroup.com]] [[Corvallis Homes For Sale|http://www.valleybrokers.com]] [[Online Gift Cards|http://www.giftzip.com]] [[Lanoxin|http://www.genericlanoxin.com/]] [[Nexium|http://www.shopeastwest.com/med/health-wellness/Nexium/105.html]] [[log siding|http://www.michigancedarproducts.com]] [[Pool Lifts|http://www.globalliftcorp.com]] [[Environmental Consulting|http://www.pmenv.com]] [[how to lose weight fast|http://weightlossctr.com]] [[background check|http://www.rentalprotectionagency.com/tenant-screening.php]] 
+
+[[dissertation help|http://www.ukessayhelp.com/dissertation-help.html]] [[dissertation proposal|http://www.ukessayhelp.com/dissertation-help.html]] [[assignment help|http://www.ukessayhelp.com/assignment.html]] [[essay help|http://www.easyessaypaper.com/essay-help.php]] [[essay writers online|http://www.easyessaypaper.com/essay-help.php]] [[online homework helpers|http://www.easyessaypaper.com/]] [[programming homework helpers|http://www.easyessaypaper.com/programming-homework-help.php]] [[statistics assignment help|http://www.customassignmenthelp.co.uk/]] [[assignment help|http://www.customassignmenthelp.co.uk/]] [[marketing assignment help|http://www.customassignmenthelp.co.uk/marketing-assignment-help.html]] [[java assignment help|http://www.customassignmenthelp.co.uk/java-assignment-help.html]] [[c++ assignment help|http://www.customassignmenthelp.co.uk/c++assignment-help.html]] [[assignment help|http://www.customassignmenthelp.co.uk/ statistics]] [[marketing assignment help|http://www.customassignmenthelp.co.uk/marketing-assignment-help.html]] [[java assignment help|http://www.customassignmenthelp.co.uk/java-assignment-help.html]] [[c++ assignment help|http://www.customassignmenthelp.co.uk/c++assignment-help.html]] [[economics assignment help|http://www.customassignmenthelp.co.uk/economics-assignment-help.html]] 
+
+[[google|http://google.com]] [[googlede|http://google.de]] [[googlees|http://google.es]] [[googlepte|http://google.pt]] [[yhaooh|http://yahoo.com]] [[yahoode|http://yahoo.de]] [[googlefr|http://google.fr]] [[googleit|http://google.it]] [[Corvallis Homes For Sale|http://www.valleybrokers.com]] [[Online Gift Cards|http://www.giftzip.com]] [[log siding|http://www.michigancedarproducts.com]] [[Pool Lifts|http://www.globalliftcorp.com]] [[footypupro|http://www.footypd.com/uprofile.php?UID=6508]] [[youdeaff|http://youdeaf.com/uprofile.php?UID=716]] [[pettwovidd|http://www.pet2video.com/uprofile.php?UID=405]] [[routubes|http://www.rutube.me/uprofile.php?UID=728]] [[svetvs|http://svetv.videokijken.nl/uprofile.php?UID=225]] [[djstets|http://www.djsets.gr/djsets/uprofile.php?UID=278311]] [[zbufufu|http://www.zbufu.com/uprofile.php?UID=289266]] [[clipsourpo|http://clips.krabit.com/uprofile.php?UID=295]] [[reserrvo|http://www.reservoirfilms.com/uprofile.php?UID=27009]] [[streamupro|http://www.streamingmediapedia.net/uprofile.php?UID=718]] [[babyloupro|http://www.babylontube.com/uprofile.php?UID=377]] [[stufferbox|http://www.stufferbox.com/uprofile.php?UID=2679]] [[asftvupro|http://www.afsd.tv/uprofile.php?UID=247]] [[offotupro|http://www.offtopicdaily.com/uprofile.php?UID=421]] [[ikavideotv|http://www.ikaworld.com/videotv/uprofile.php?UID=334]] [[engiszfourtov|http://www.english4today.tv/uprofile.php?UID=41495]] [[videtwoemark|http://www.video-emarketing.com/uprofile.php?UID=218]] 
+
+
+## Bugs
+
+Bugs can be reported at [[http://bugs.freedesktop.org/enter_bug.cgi|http://bugs.freedesktop.org/enter_bug.cgi]] 
+
+
+## Mailing List
+
+[[http://lists.freedesktop.org/mailman/listinfo/liboil|http://lists.freedesktop.org/mailman/listinfo/liboil]] 
+
+
+## Contact
+
+David Schleef <[[ds@schleef.org|mailto:ds@schleef.org]]>  
+
+
+## Links
+
+[[replica watches|http://www.hotsale-watch.com/]] [[Muay Thai|http://www.easymuaythai.com/]] 
